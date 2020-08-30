@@ -2,7 +2,7 @@
 # finds largest prime factor of a given number
 
 def find_largest_prime_factor(n):
-    # find largest prime factor of n
+    """find largest prime factor of n"""
     def isprime(number):
         # returns true if number is prime number
         assign = True

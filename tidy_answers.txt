@@ -1,0 +1,10 @@
+Project Euler tidy answers
+Computed by farukara 
+
+Project site: https://github.com/farukara/Project-Euler-problems
+
+Problem 001: 233168
+Problem 002: 4613732
+Problem 003: 
+Problem 004: 994-583 
+Problem 005: 232792560
