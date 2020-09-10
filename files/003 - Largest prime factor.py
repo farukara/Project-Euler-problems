@@ -1,5 +1,7 @@
 #! Python3
-# finds largest prime factor of a given number
+## finds largest prime factor of a given number
+## https://projecteuler.net/problem=3
+
 
 def find_largest_prime_factor(n):
     """find largest prime factor of n"""

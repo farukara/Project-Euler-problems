@@ -1,8 +1,10 @@
 #! Python3 
 ## 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 ## What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20
+## https://projecteuler.net/problem=5
 
-# First iteration below is not using any module. Thhat's why the code is processor intensive. Second iteration uses math module to calculate Greatest Common Divisor.
+
+# First iteration below is not using any module. That's why the code is processor intensive. Second iteration uses math module to calculate Greatest Common Divisor.
 
 
 # First iteration without any import for numbers 1-10

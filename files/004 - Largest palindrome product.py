@@ -1,6 +1,6 @@
 #! Python3
-# Find the largest palindrome made from the product of two 3-digit numbers.
-
+## Find the largest palindrome made from the product of two 3-digit numbers.
+## https://projecteuler.net/problem=4
 
 def polindrome_product_finder(digits):
     upper_limit = number_of_digits * 333
