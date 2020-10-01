@@ -22,7 +22,7 @@ def polindrome_product_finder(digits):
     
         m -= 1
     
-    print(m, n)
+    print(m+1, n)
 
 if __name__ == '__main__':
     number_of_digits = 3  # this line is to avoid hard coding, can accept user input
