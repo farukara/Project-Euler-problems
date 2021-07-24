@@ -26,17 +26,15 @@ def isprime(number):
         if number % i == 0:
             assign = False
     return assign    
-goal = 100 # trying to find goal'th prime number
 
-pri_list = []
-for i in range(2,10001):
+pri_list = [2,3]
+i = 1
+while len(pri_list) < 10001:
     if isprime(i*6-1): 
         pri_list.append(i*6-1)
     if isprime(i*6+1): 
         pri_list.append(i*6+1)
-    if len(pri_list) >= 10001:
-        break
-    print(len(pri_list), pri_list[-1])
+    i += 1
 print(len(pri_list), 'th prime number is ', pri_list[-1])
 
 

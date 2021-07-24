@@ -12,6 +12,7 @@ def isprime(number):
     for i in range (2,int(sqrt(number))+1):
         if number % i == 0:
             controller = False
+            break
     return controller    
 
 i =1_000
