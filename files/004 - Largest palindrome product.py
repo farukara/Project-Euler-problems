@@ -2,28 +2,27 @@
 ## Find the largest palindrome made from the product of two 3-digit numbers.
 ## https://projecteuler.net/problem=4
 
+from time import perf_counter
+
 def polindrome_product_finder(digits):
-    upper_limit = number_of_digits * 333
-    lower_limit = number_of_digits * 33
-    pairs_found = False
+    upper_limit = int('1' + number_of_digits * '0')
+    lower_limit = int('1' + (number_of_digits-1) * '0')
 
     m = upper_limit
-    while m > lower_limit and pairs_found == False:
+    palindromes = []
+    while m > lower_limit:
         n = upper_limit
-
         while n > lower_limit:
             prod = m*n
-            if len(str(prod))%2 == 0:
-                if int(str(prod)[:int(len(str(prod))/2)])== int(str(prod)[::-1][:int(len(str(prod))/2)]):
-                    pairs_found = True
-                    break
-                    
+            if int(str(prod)[:int(len(str(prod))/2)])== int(str(prod)[::-1][:int(len(str(prod))/2)]):
+                palindromes.append(prod)
             n -= 1
     
         m -= 1
+    print(max(palindromes))
     
-    print(m+1, n)
-
 if __name__ == '__main__':
-    number_of_digits = 3  # this line is to avoid hard coding, can accept user input
+    number_of_digits = 3  # this line is to avoid hard coding
+    start = perf_counter()
     polindrome_product_finder(number_of_digits)
+    print(perf_counter() - start)
