@@ -4,6 +4,7 @@
 #There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, exhibiting this property, but there is one other 4-digit increasing sequence.
 #
 #What 12-digit number do you form by concatenating the three terms in this sequence?#! python3
+# https://projecteuler.net/problem=49
 
 def isprime(number):
     from math import sqrt

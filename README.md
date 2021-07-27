@@ -446,6 +446,20 @@ Find the sum of all the positive integers which cannot be written as the sum of 
 
 **<u>Solution and Notes:</u>**
 
+## [024 - Lexicographic permutations](git)
+
+[Problem 24](https://projecteuler.net/problem=24)
+
+A permutation is an ordered arrangement of objects. For example, 3124 is one possible permutation of the digits 1, 2, 3 and 4. If all of the permutations are listed numerically or alphabetically, we call it lexicographic order. The lexicographic permutations of 0, 1 and 2 are:
+
+012   021   102   120   201   210
+
+What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?
+
+**Answer:** 2783915460
+
+**<u>Solution and Notes:</u>**
+
 ## [025 - 1000-digit Fibonacci number](git)
 
 [Problem 25](https://projecteuler.net/problem=25)
@@ -563,9 +577,9 @@ Find the sum of all the numbers that can be written as the sum of fifth powers o
 
 **<u>Solution and Notes:</u>**
 
-## [031 - Pandigital products](git)
+## [032 - Pandigital products](git)
 
-[Problem 31](https://projecteuler.net/problem=31)
+[Problem 32](https://projecteuler.net/problem=32)
 
 We shall say that an n-digit number is pandigital if it makes use of all the digits 1 to n exactly once; for example, the 5-digit number, 15234, is 1 through 5 pandigital.
 
@@ -575,7 +589,23 @@ Find the sum of all products whose multiplicand/multiplier/product identity can 
 
 HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum.
 
-**Answer:** 
+**Answer:**  45228
+
+**<u>Solution and Notes:</u>**
+
+## [033 - Digit cancelling fractions](git)
+
+[Problem 33](https://projecteuler.net/problem=33)
+
+The fraction 49/98 is a curious fraction, as an inexperienced mathematician in attempting to simplify it may incorrectly believe that 49/98 = 4/8, which is correct, is obtained by cancelling the 9s.
+
+We shall consider fractions like, 30/50 = 3/5, to be trivial examples.
+
+There are exactly four non-trivial examples of this type of fraction, less than one in value, and containing two digits in the numerator and denominator.
+
+If the product of these four fractions is given in its lowest common terms, find the value of the denominator.
+
+**Answer:** 100
 
 **<u>Solution and Notes:</u>**
 
@@ -592,3 +622,23 @@ What 12-digit number do you form by concatenating the three terms in this sequen
 **Answer:** 296962999629
 
 **<u>Solution and Notes:</u>**
+
+## [050 - Consecutive prime sum](git)
+
+[Problem 50](https://projecteuler.net/problem=50)
+
+The prime 41, can be written as the sum of six consecutive primes:
+
+41 = 2 + 3 + 5 + 7 + 11 + 13
+
+This is the longest sum of consecutive primes that adds to a prime below one-hundred.
+
+The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and is equal to 953.
+
+Which prime, below one-million, can be written as the sum of the most consecutive primes?
+
+**Answer:** 997651
+
+**<u>Solution and Notes:</u>**
+
+Brute force took 704 seconds
