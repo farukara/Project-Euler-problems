@@ -609,6 +609,24 @@ If the product of these four fractions is given in its lowest common terms, find
 
 **<u>Solution and Notes:</u>**
 
+## [034 - Digit factorials](git)
+
+[Problem 34](https://projecteuler.net/problem=34)
+
+145 is a curious number, as 1! + 4! + 5! = 1 + 24 + 120 = 145.
+
+Find the sum of all numbers which are equal to the sum of the factorial of their digits.
+
+Note: As 1! = 1 and 2! = 2 are not sums they are not included.
+
+**Answer:** 40730
+
+**<u>Solution and Notes:</u>** Used dictionary of factorial of  10 digits to avoid redundant computation
+
+factorial of 9 is 362880. so  numbers larger than 6 digit cannot satisfy this requirement.
+
+Also used Process from multiprocessing module.
+
 ## [049 - Prime permutations](git)
 
 [Problem 49](https://projecteuler.net/problem=49)
