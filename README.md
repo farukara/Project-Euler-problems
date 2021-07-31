@@ -627,6 +627,20 @@ factorial of 9 is 362880. so  numbers larger than 6 digit cannot satisfy this re
 
 Also used Process from multiprocessing module.
 
+## [037 - Truncatable primes](git)
+
+[Problem 37](https://projecteuler.net/problem=37)
+
+The number 3797 has an interesting property. Being prime itself, it is possible to continuously remove digits from left to right, and remain prime at each stage: 3797, 797, 97, and 7. Similarly we can work from right to left: 3797, 379, 37, and 3.
+
+Find the sum of the only eleven primes that are both truncatable from left to right and right to left.
+
+NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
+
+**Answer:** 748317
+
+**<u>Solution and Notes:</u>** 
+
 ## [049 - Prime permutations](git)
 
 [Problem 49](https://projecteuler.net/problem=49)
