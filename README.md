@@ -627,6 +627,20 @@ factorial of 9 is 362880. so  numbers larger than 6 digit cannot satisfy this re
 
 Also used Process from multiprocessing module.
 
+## [035 - Circular primes](git)
+
+[Problem 35](https://projecteuler.net/problem=35)
+
+The number, 197, is called a circular prime because all rotations of the digits: 197, 971, and 719, are themselves prime.
+
+There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97.
+
+How many circular primes are there below one million?
+
+**Answer:** 
+
+**<u>Solution and Notes:</u>** 
+
 ## [037 - Truncatable primes](git)
 
 [Problem 37](https://projecteuler.net/problem=37)
