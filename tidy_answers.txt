@@ -40,6 +40,7 @@ Problem 032: 45228
 Problem 033: 100
 Problem 034: 40730
 Problem 035: 55
+Problem 036: 872187
 
 Problem 037: 748317
 
