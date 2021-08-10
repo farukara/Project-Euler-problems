@@ -669,6 +669,52 @@ NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 
 **<u>Solution and Notes:</u>** 
 
+## [038 - Pandigital multiples](git)
+
+[Problem 38](https://projecteuler.net/problem=38)
+
+Take the number 192 and multiply it by each of 1, 2, and 3:
+
+> 192 × 1 = 192  
+> 192 × 2 = 384  
+> 192 × 3 = 576
+
+By concatenating each product we get the 1 to 9 pandigital, 192384576. We will call 192384576 the concatenated product of 192 and (1,2,3)
+
+The same can be achieved by starting with 9 and multiplying by 1, 2, 3, 4, and 5, giving the pandigital, 918273645, which is the concatenated product of 9 and (1,2,3,4,5).
+
+What is the largest 1 to 9 pandigital 9-digit number that can be formed as the concatenated product of an integer with (1,2, ... , n) where n > 1?
+
+**Answer:** 
+
+**<u>Solution and Notes:</u>**
+
+## [039 - Integer right triangles](git)
+
+[Problem 39](https://projecteuler.net/problem=39)
+
+If *p* is the perimeter of a right angle triangle with integral length sides, {*a*,*b*,*c*}, there are exactly three solutions for *p* = 120.
+
+{20,48,52}, {24,45,51}, {30,40,50}
+
+For which value of *p* ≤ 1000, is the number of solutions maximised?
+
+**Answer:**
+
+**<u>Solution and Notes:</u>**
+
+## [041 - Pandigital prime](git)
+
+[Problem 41](https://projecteuler.net/problem=41)
+
+We shall say that an *n*-digit number is pandigital if it makes use of all the digits 1 to *n* exactly once. For example, 2143 is a 4-digit pandigital and is also prime.
+
+What is the largest *n*-digit pandigital prime that exists?
+
+**Answer:**
+
+**<u>Solution and Notes:</u>**
+
 ## [049 - Prime permutations](git)
 
 [Problem 49](https://projecteuler.net/problem=49)
