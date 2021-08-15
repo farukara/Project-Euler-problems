@@ -711,9 +711,47 @@ We shall say that an *n*-digit number is pandigital if it makes use of all the d
 
 What is the largest *n*-digit pandigital prime that exists?
 
-**Answer:**
+**Answer:** 7652413
 
 **<u>Solution and Notes:</u>**
+
+## [042 - Coded triangle numbers](git)
+
+[Problem 42](https://projecteuler.net/problem=42)
+
+The *n*th term of the sequence of triangle numbers is given by, *tn* = ½*n*(*n*+1); so the first ten triangle numbers are:
+
+1, 3, 6, 10, 15, 21, 28, 36, 45, 55, ...
+
+By converting each letter in a word to a number corresponding to its alphabetical position and adding these values we form a word value. For example, the word value for SKY is 19 + 11 + 25 = 55 = *t*10. If the word value is a triangle number then we shall call the word a triangle word.
+
+Using [words.txt](https://projecteuler.net/project/resources/p042_words.txt) (right click and 'Save Link/Target As...'), a 16K text file containing nearly two-thousand common English words, how many are triangle words?
+
+**Answer:** 162
+
+**<u>Solution and Notes:</u>**
+
+## [043 - Sub-string divisibility](git)
+
+[Problem 43](https://projecteuler.net/problem=43)
+
+The number, 1406357289, is a 0 to 9 pandigital number because it is made up of each of the digits 0 to 9 in some order, but it also has a rather interesting sub-string divisibility property.
+
+Let *d*1 be the 1st digit, *d*2 be the 2nd digit, and so on. In this way, we note the following:
+
+- *d*2*d*3*d*4=406 is divisible by 2
+- *d*3*d*4*d*5=063 is divisible by 3
+- *d*4*d*5*d*6=635 is divisible by 5
+- *d*5*d*6*d*7=357 is divisible by 7
+- *d*6*d*7*d*8=572 is divisible by 11
+- *d*7*d*8*d*9=728 is divisible by 13
+- *d*8*d*9*d*10=289 is divisible by 17
+
+Find the sum of all 0 to 9 pandigital numbers with this property.
+
+**Answer:** 16695334890
+
+**<u>Solution and Notes:</u>** brute force - 1.7 seconds, finer method - 0.0014 seconds
 
 ## [049 - Prime permutations](git)
 

@@ -45,6 +45,7 @@ Problem 036: 872187
 Problem 037: 748317
 
 Problem 041: 7652413
+Problem 042: 162
 
 Problem 047: 
 
