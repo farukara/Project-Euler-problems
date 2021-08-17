@@ -46,6 +46,8 @@ Problem 037: 748317
 
 Problem 041: 7652413
 Problem 042: 162
+Problem 043: 16695334890
+Problem 044: 5482660
 
 Problem 047: 
 
