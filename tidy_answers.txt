@@ -50,6 +50,7 @@ Problem 043: 16695334890
 Problem 044: 5482660
 
 Problem 047: 
+Problem 048: 9110846700
 
 Problem 049: 296962999629
 Problem 050:      997651 need to be optimized
