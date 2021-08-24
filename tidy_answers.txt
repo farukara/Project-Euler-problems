@@ -54,4 +54,7 @@ Problem 048: 9110846700
 
 Problem 049: 296962999629
 Problem 050:      997651 need to be optimized
+
+Problem 052: 142857
+
 Problem 055: 249
