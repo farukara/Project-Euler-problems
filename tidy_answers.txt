@@ -56,5 +56,7 @@ Problem 049: 296962999629
 Problem 050:      997651 need to be optimized
 
 Problem 052: 142857
+Problem 053: 4075
 
 Problem 055: 249
+Problem 056: 972

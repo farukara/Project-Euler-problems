@@ -785,7 +785,7 @@ Find the last ten digits of the series, 11 + 22 + 33 + ... + 10001000.
 
 [Problem 51](https://projecteuler.net/problem=51)
 
-By replacing the 1st digit of the 2-digit number *3, it turns out that six of the nine possible values: 13, 23, 43, 53, 73, and 83, are all prime.
+By replacing the 1st digit of the 2-digit number * 3, it turns out that six of the nine possible values: 13, 23, 43, 53, 73, and 83, are all prime.
 
 By replacing the 3rd and 4th digits of 56**3 with the same digit, this 5-digit number is the first example having seven primes among the ten generated numbers, yielding the family: 56003, 56113, 56333, 56443, 56663, 56773, and 56993. Consequently 56003, being the first member of this family, is the smallest prime with this property.
 
@@ -841,6 +841,27 @@ Find the smallest positive integer, x, such that 2x, 3x, 4x, 5x, and 6x, contain
 
 **<u>Solution and Notes:</u>**
 
+
+## [053 - Combinatoric selections](git)
+
+[Problem 53](https://projecteuler.net/problem=53)
+
+There are exactly ten ways of selecting three from five, 12345:
+
+123, 124, 125, 134, 135, 145, 234, 235, 245, and 345
+
+In combinatorics, we use the notation, ( 5 3) = 10 .
+
+In general,  ( n r) = n !  r !  ( n − r) !  , where r ≤ n , n !  = n × ( n − 1) × .  .  .  × 3 × 2 × 1 , and 0 !  = 1 .
+
+It is not until n = 23 , that a value exceeds one-million: ( 23 10) = 1144066 .
+
+How many, not necessarily distinct, values of ( n r) for 1 ≤ n ≤ 100, are greater than one-million?
+
+**Answer:** 4075
+
+**<u>Solution and Notes:</u>**
+
 ## [055 - Lychrel numbers](git)
 
 [Problem 55](https://projecteuler.net/problem=55)
@@ -863,6 +884,19 @@ How many Lychrel numbers are there below ten-thousand?
 
 NOTE: Wording was modified slightly on 24 April 2007 to emphasise the theoretical nature of Lychrel numbers.
 
-**Answer:** 
+**Answer:** 249
 
 **<u>Solution and Notes:</u>**
+
+## [056 - Powerful digit sum](git)
+
+[Problem 56](https://projecteuler.net/problem=56)
+
+A googol (10100) is a massive number: one followed by one-hundred zeros; 100100 is almost unimaginably large: one followed by two-hundred zeros. Despite their size, the sum of the digits in each number is only 1.
+
+Considering natural numbers of the form, ab, where a, b < 100, what is the maximum digital sum?
+
+**Answer:** 972
+
+**<u>Solution and Notes:</u>**
+
