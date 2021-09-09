@@ -900,6 +900,17 @@ Considering natural numbers of the form, ab, where a, b < 100, what is the maxim
 
 **<u>Solution and Notes:</u>**
 
+## [063 - Powerful digit counts](git)
+[Problem 63](https://projecteuler.net/problem=63)
+
+The 5-digit number, 16807=75, is also a fifth power. Similarly, the 9-digit number, 134217728=89, is a ninth power.
+
+How many n-digit positive integers exist which are also an nth power?
+
+**Answer:** 49
+
+**<u>Solution and Notes:</u>**
+
 ## [092 - Square digit chains](git)
 
 [Problem 92](https://projecteuler.net/problem=92)
