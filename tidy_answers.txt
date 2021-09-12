@@ -65,4 +65,6 @@ Problem 056: 972
 
 Problem 063: 49 js
 
+Problem 079: 73162890
+
 Problem 092: 8581146 js
