@@ -7,7 +7,7 @@ Problems at: https://projecteuler.net/archives
 "js" letter after the answer indicates question has been solved in javascript as well.
 
 
-Problem 001: 233168
+Problem 001: 233168 js
 Problem 002: 4613732
 Problem 003: 6857
 Problem 004: 906609
