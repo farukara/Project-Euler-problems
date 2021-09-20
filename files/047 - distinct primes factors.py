@@ -15,6 +15,15 @@ from time import perf_counter
 from itertools import combinations_with_replacement as combwr
 from functools import cache, lru_cache
 
+def timeit(func):
+    def wrapper(*args, **kwargs):
+        start = perf_counter()
+        result = func(*args, *kwargs)
+        end = perf_counter()
+        print(f"{func.__name__} function took {end-start:.3f} seconds")
+        return result
+    return wrapper
+
 def isprime(n):
     "returns True if n is a prime"
     if n ==2 or n == 3:
@@ -24,48 +33,45 @@ def isprime(n):
             return False
     return True
 
-def divisors(n):
-    "returns set of int divisors"
-    set_of_divisors = set()
+def factors(n):
+    "returns set of int factors"
+    set_of_factors = set()
     for i in range(2, int(sqrt(n)+1)):
         if n%i == 0:
-            set_of_divisors.add(i)
-            set_of_divisors.add(int(n/i))
-    return set_of_divisors
+            set_of_factors.add(i)
+            set_of_factors.add(int(n/i))
+    return set_of_factors
 
 @cache
 def has_prime_factors(number, count):
     "return True if number has -count- factors"
-    global primelist, numbers_dont_have_primefactors
-    if number in numbers_dont_have_primefactors:
-        return False
-    divisor_list = divisors(number)
-    prime_divisors = set()
+    global primelist
+    divisor_list = factors(number)
+    prime_factors = set()
     for divisor in divisor_list:
         if divisor in primelist:
-            prime_divisors.add(divisor)
+            prime_factors.add(divisor)
         elif isprime(divisor):
-            prime_divisors.add(divisor)
+            prime_factors.add(divisor)
             primelist.add(divisor)
-    if len(prime_divisors) < count:
-        numbers_dont_have_primefactors[number] = number
+    if len(prime_factors) < count:
         return False
-    if prime_divisors:
+    if prime_factors:
         for i in range(count, len(divisor_list)+1):
-            for cmb in combwr(prime_divisors, i):
+            for cmb in combwr(prime_factors, i):
                 if number == prod(cmb) and len(set(cmb)) == count:
                     #print(cmb)
                     return True
     else: 
-        numbers_dont_have_primefactors[number] = number
         return False
     
+
+@timeit
 def main():
-    global primelist, numbers_dont_have_primefactors 
+    global primelist
     primelist = set()
-    numbers_dont_have_primefactors = dict()
     i = 1
-    count = 4
+    count = 3
     while True:
         conditions = []
         for j in range(count):
